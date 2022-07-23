@@ -1,13 +1,20 @@
 # codemark-test
 
-SOAP сервис с CRUD операциями на h2 database
+## Описание
+SOAP сервис с CRUD операциями управления пользователями на h2 database
 
+## Запуск
 Для запуска сервиса необходимо
   1.Клонировать репозиторий
   2.Открыть терминал по адресу папки
-  3.Запустить сервис  командой <java -jar codemark-test-0.0.1-SNAPSHOT.jar>
+  3.Запустить сервис  командой `java -jar codemark-test-0.0.1-SNAPSHOT.jar`
+
+## Использование
+
+  
+WSDL - `http://localhost:8080/ws/users.wsdl`
+Путь к базе данных- `http://localhost:8080/h2`
+
   
   
-WSDL - http://localhost:8080/ws/users.wsdl
-Путь к базе данных- http://localhost:8080/h2
-  
+ 
